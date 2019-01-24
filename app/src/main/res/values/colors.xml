@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="default_back_color">@android:color/transparent</color>
+    <color name="default_back_stroke_color">#f0f0f0</color>
+    <color name="default_chart_value_color">#ff3d00</color>
+    <color name="chart_value_1">#ff0000</color>
+    <color name="chart_value_2">#ffa80d</color>
+    <color name="chart_value_3">#00ff26</color>
+    <color name="chart_value_4">#B5CC84</color>
+
+    <color name="background_color">#f2000000</color>
+
+    <color name="foreground_color">#b42379</color>
+
+    <color name="background_text_color">#808080</color>
+
+    <color name="foreground_text_color">#eeeeee</color>
+
+    <color name="usage_state_foreground_color">#DB0082</color>
+    <color name="state_background_color">#BDBDBD</color>
+    <color name="state_background_text_color">#808080</color>
+    <color name="state_foreground_text_color">#eeeeee</color>
+    <color name="demo_state_foreground_color">#009688</color>
+
+    <color name="description_background_color">#0BB5FF</color>
+    <color name="description_foreground_color">#002395</color>
+
+    <color name="usage_pink">#b42379</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_200">#EF9A9A</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_200">#CE93D8</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="green_500">#4CFF50</color>
+    <color name="green_200">#A5D6A7</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="orange_200">#FFCC80</color>
+    <color name="brown_500">#795548</color>
+    <color name="brown_200">#BCAAA4</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

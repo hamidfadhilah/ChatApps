@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "112973637553",
+    "firebase_url": "https://powerproject-cc611.firebaseio.com",
+    "project_id": "powerproject-cc611",
+    "storage_bucket": "powerproject-cc611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112973637553:android:e4930420a74ac24a",
+        "android_client_info": {
+          "package_name": "com.powerproject.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112973637553-rj58t0ju7g7otsgi4745ikd5a1u3fff2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.powerproject.login",
+            "certificate_hash": "026c00f5f631c75e66f55f480121b7fa01012c89"
+          }
+        },
+        {
+          "client_id": "112973637553-o73ijlmaephdola1vgpsn6kirb3ta0ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtfjIE3NgIivcidLeGjhRm1ZD1PKnqGow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112973637553-o73ijlmaephdola1vgpsn6kirb3ta0ht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

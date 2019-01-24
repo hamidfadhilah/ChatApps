@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.powerproject.main.AddMemberActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/authui_colorPrimary"
+        android:textColor="@color/buttonTextColor" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:text="Member"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/buttonTextColor" />
+
+    <EditText
+        android:id="@+id/etAddMember"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/rvOwner"
+        android:layout_alignStart="@+id/rvOwner" />
+
+    <Button
+        android:id="@+id/bAddMember"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_alignBaseline="@+id/etAddMember"
+        android:layout_alignBottom="@+id/etAddMember"
+        android:layout_toRightOf="@+id/etAddMember"
+        android:layout_toEndOf="@+id/etAddMember" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvOwner"
+        android:layout_width="330dp"
+        android:layout_height="290dp"
+        android:layout_below="@+id/bAddMember"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:clipToPadding="false"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/layout_member" />
+
+    <Button
+        android:id="@+id/bBackMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rvOwner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

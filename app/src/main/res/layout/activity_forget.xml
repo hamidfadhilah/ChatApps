@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forget"
+    tools:context="com.powerproject.login.ForgetActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="Forget Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_weight="1"
+        android:layout_x="142dp"
+        android:layout_y="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <EditText
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/etEmail"
+        android:layout_weight="1"
+        android:layout_x="31dp"
+        android:layout_y="74dp"
+        android:hint="Email"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:text="Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="134dp"
+        android:id="@+id/btFContinue"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/etEmail"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
